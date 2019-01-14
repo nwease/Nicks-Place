@@ -16,10 +16,10 @@ class CountDown extends Component {
         if(time < 0){
             console.log('Date passed')
         } else {
-            const seconds = Math.floor((time/4000)%60);
-            const minutes = Math.floor((time/4000/60)%60);
-            const hours = Math.floor((time/(4000*60*60))%24);
-            const days = Math.floor(time/(4000*60*60*24));
+            const seconds = Math.floor((time/1000)%60);
+            const minutes = Math.floor((time/1000/60)%60);
+            const hours = Math.floor((time/(1000*60*60))%24);
+            const days = Math.floor(time/(1000*60*60*24));
 
             this.setState({
                 days,
@@ -31,12 +31,12 @@ class CountDown extends Component {
     }
 
     componentDidMount() {
-        setInterval(() => this.getCountDown(this.state.deadline),4000)
+        setInterval(() => this.getCountDown(this.state.deadline),1000)
     }
 
     render() {
         return (
-            <Slide left delay={4000}>
+            <Slide left delay={1000}>
                 <div className="countdown_wrapper">
                     <div className="countdown_top">
                         Event Starts In

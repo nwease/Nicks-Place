@@ -5,7 +5,7 @@ import slide_one from '../../resources/images/slide_one.jpg';
 import slide_two from '../../resources/images/slide_two.jpg';
 import slide_three from '../../resources/images/slide_three.jpg';
 
-const Carrousel = () => {
+const Carousel = () => {
 
     const settings = {
         dots: false,
@@ -16,7 +16,7 @@ const Carrousel = () => {
 
     return (
         <div
-            className="carrousel_wrapper"
+            className="carousel_wrapper"
             style={{
                 height: `${window.innerHeight}px`,
                 overflow: 'hidden'
@@ -25,7 +25,7 @@ const Carrousel = () => {
             <Slider {...settings}>
                 <div>
                     <div
-                        className="carrousel_image"
+                        className="carousel_image"
                         style={{
                             background: `url(${slide_one})`,
                             height: `${window.innerHeight}px`
@@ -36,7 +36,7 @@ const Carrousel = () => {
 
                 <div>
                     <div
-                        className="carrousel_image"
+                        className="carousel_image"
                         style={{
                             background: `url(${slide_two})`,
                             height: `${window.innerHeight}px`
@@ -47,7 +47,7 @@ const Carrousel = () => {
 
                 <div>
                     <div
-                        className="carrousel_image"
+                        className="carousel_image"
                         style={{
                             background: `url(${slide_three})`,
                             height: `${window.innerHeight}px`
@@ -56,9 +56,8 @@ const Carrousel = () => {
                     </div>
                 </div>
             </Slider>
-
         </div>
     );
 };
 
-export default Carrousel;
+export default Carousel;
