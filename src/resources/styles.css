@@ -218,6 +218,9 @@ footer .footer_copyright {
         HIGHLIGHTS
 ======================*/
 
+.highlight_wrapper {
+    background: #fff;
+}
 
 .highlight_wrapper h2 {
     text-align: center;

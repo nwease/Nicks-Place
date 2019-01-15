@@ -10,8 +10,18 @@ class Discount extends Component {
     };
 
     percentage = () => {
-
+        if (this.state.discountStart < this.state.discountEnd) {
+            this.setState({
+                discountStart: this.state.discountStart + 1
+            })
+        }
     };
+
+    componentDidUpdate() {
+        setTimeout(() => {
+            this.percentage()
+        },30);
+    }
 
     render() {
         return (
@@ -19,7 +29,7 @@ class Discount extends Component {
                 <div className="discount_wrapper">
                     <Fade onReveal={() => this.percentage()}>
                         <div className="discount_percentage">
-                            <span>25%</span>
+                            <span>{this.state.discountStart}%</span>
                             <span>OFF</span>
                         </div>
                     </Fade>
