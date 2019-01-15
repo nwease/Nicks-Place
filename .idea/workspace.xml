@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b87de86-8771-427f-94c8-82601adcb179" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/VenueInfo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Highlights/Description.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Highlights/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/featured/Carrousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/featured/CountDown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured/CountDown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/featured/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/images/icons/calendar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/images/icons/calender.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +18,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Highlights/Discount.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/VenueInfo/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+            <state relative-caret-position="158">
+              <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Highlights/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Highlights/Description.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="269" selection-start-line="9" selection-start-column="269" selection-end-line="9" selection-end-column="269" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -37,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="225">
               <caret line="158" column="10" lean-forward="true" selection-start-line="158" selection-start-column="10" selection-end-line="158" selection-end-column="10" />
             </state>
           </provider>
@@ -60,12 +97,15 @@
         <option value="$PROJECT_DIR$/src/components/featured/Carrousel.js" />
         <option value="$PROJECT_DIR$/src/components/venue_info/index.js" />
         <option value="$PROJECT_DIR$/src/components/Venue_Info/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/resources/styles.css" />
         <option value="$PROJECT_DIR$/src/components/featured/Carousel.js" />
         <option value="$PROJECT_DIR$/src/components/featured/index.js" />
         <option value="$PROJECT_DIR$/src/components/featured/CountDown.js" />
         <option value="$PROJECT_DIR$/src/components/VenueInfo/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Highlights/Descriptions.js" />
+        <option value="$PROJECT_DIR$/src/components/Highlights/Description.js" />
+        <option value="$PROJECT_DIR$/src/components/Highlights/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -104,14 +144,7 @@
               <item name="the_event" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="featured" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="the_event" type="b2602c69:ProjectViewProjectNode" />
-              <item name="the_event" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="VenueInfo" type="462c0819:PsiDirectoryNode" />
+              <item name="Highlights" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,18 +189,17 @@
       <workItem from="1547229280709" duration="6236000" />
       <workItem from="1547278892262" duration="165000" />
       <workItem from="1547314135610" duration="589000" />
-      <workItem from="1547316435874" duration="3889000" />
+      <workItem from="1547316435874" duration="5436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17941000" />
+    <option name="totallyTimeSpent" value="19488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1204" y="23" width="714" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2752976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2752976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -267,13 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/featured/Carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -296,17 +321,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="225">
           <caret line="158" column="10" lean-forward="true" selection-start-line="158" selection-start-column="10" selection-end-line="158" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/VenueInfo/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+        <state relative-caret-position="158">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Highlights/Description.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="269" selection-start-line="9" selection-start-column="269" selection-end-line="9" selection-end-column="269" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Highlights/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
