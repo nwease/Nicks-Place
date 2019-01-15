@@ -1,23 +1,49 @@
 import React, {Component} from 'react';
+import MyButton from '../utils/MyButton';
+import Zoom from 'react-reveal/Zoom';
 
 class Prices extends Component {
 
     state = {
-        prices: ['$100', '$150', '$250'],
+        prices: [100, 150, 250],
         positions: ['Floor', 'Balcony', 'Suites'],
         desc: [
             'Seating is on an aluminum bench, without seat backs',
             'Seating is on an aluminum bench, without seat backs',
-            'Features upscale amenities including carpeting, furniture, bars, restaurants, television monitors, "themed" food stands, climate control and executive restrooms.'
+            'Features upscale amenities including carpeting, furniture, bars, restaurants, television monitors, etc...'
         ],
-        linkTo: ['#', '#', '#']
+        linkTo: ['https://sales/f', 'https://sales/b', 'https://sales/s'],
+        delay: [500,0,500]
     };
 
     showBoxes = () => (
-        <div>
-            SOMETHING HERE
-        </div>
+        this.state.prices.map((box, i) => (
+            <Zoom delay={this.state.delay[i]} key={i}>
+                <div className="pricing_item">
+                    <div className="pricing_inner_wrapper">
+                        <div className="pricing_title">
+                            <span>${this.state.prices[i]}</span>
+                            <span>{this.state.positions[i]}</span>
+                        </div>
+
+                        <div className="pricing_description">
+                            {this.state.desc[i]}
+                        </div>
+
+                        <div className="pricing_buttons">
+                            <MyButton
+                                text="Buy"
+                                bck="#11998e"
+                                color="#fff"
+                                link={this.state.linkTo[i]}
+                            />
+                        </div>
+                    </div>
+                </div>
+            </Zoom>
+        ))
     );
+
 
     render() {
         return (
